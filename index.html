@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Escuela de Danza</title>
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="titulo1 text-blue text-center">
+				<h1>Escuela de Danza</h1>
+			</div>
+			<nav>
+				<div class="navegadores text-center ">
+					<a class="a-none-decoration text-blue" href="nosotros.html" target=_"new">Nosotros</li></a>
+					<a class="a-none-decoration text-blue" href="clases.html"target=_"new">Clases</a>
+					<a class="a-none-decoration text-blue" href="blog.html" target=_"new">Blog</a>
+					<a class="a-none-decoration text-blue" href="#contactos">Contactanos</a>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<div class="pareja-bailando">
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="studio">
+							<h1 class="text-white pt-5">STUDIO</h1>
+							<p class="text-white">Juliart Studios is the perfect place<br> to find your feet with over 20 <br> unique styles of dance and 80<br> teachers to choose from.</p>
+						</div>
+						<div class="boton">
+							<a class="a-none-decoration" href="#"><p class="text-center text-white pt-5 pb-5">Inscribete</p></a>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+	</div>
+	<div class="fondo-cuadrados w-100">
+		<article>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="presentacion">
+							<p class="text-center text-blue pt-5">Juliart cuenta con una amplia trayectoria y reputacion, brindando<br>una formacion de excelencia a cientos de amantes de la danza.</p>
+						</div>
+						<div class="decoracion">
+							<img src="img/decoration_1.png">
+						</div>
+						<div class="boton-ofertadeclases text-center">
+							<a class="a-none-decoration" href="#"><p class="  text-white pt-5 pb-5">Oferta de Clases</p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row inmargin">
+				<div class="col-6 inpad">
+					<div class="imagen4"></div>
+				</div>
+				<div class="col-6 inpad">
+					<div class="imagen5"></div>
+				</div>
+				</div>
+				<div class="boton-nuestros-instructores text-center">
+					<a class="a-none-decoration" href="#"><p class=" pt-5 pb-5 text-white">Nuestros Instructores</p></a>
+				</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="frase-danza">
+							<p class="text-blue pt-5 pb-5 text-center">"La danza es un poema en el que cada movimiento es <br>una palabra."</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+	</div>
+	<article>
+		<div class="fondo-azul w-100">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<div class="parrafo-visitanos">
+							<p class="text-white pt-5" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium tempora vitae magnam cum non commodi doloremque enim dignissimos, deleniti perferendis quod odit modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio qui repudiandae consequatur excepturi, voluptate ipsa accusantium dignissimos, at autem eaque, non labore recusandae eos placeat ipsum? Neque, optio cumque officiis..</p>
+							<h2 class="text-white pt-5" >Visítanos</h2>
+							<p class="text-white" >The Juiliard School<br> 60 Lincoln Center Plaza <br> New York, NY 10023<br>(212)799-5000</p>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="mapa pt-5 pb-5">
+							<div id="map" style="width:500px;height:250px;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="zapatillas-de-balet">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<div id="contactos" class="contactos pt-5">
+							<h1 class="text-blue pb-5 pt-5">Contáctanos</h1>
+								<input class="usuario pb-5" type="text" name="nombre" placeholder="Nombre">
+								<input  class="email pb-5" type="text" name="email" placeholder="Email">
+								<textarea  class="mensaje pb-5" rows="4" cols="30" name="mensaje" placeholder="Mensaje"></textarea>
+								<a class="a-none-decoration" href="#">
+								<div class="boton-enviar text-center pt-5 pb-5 text-white">
+									Enviar
+								</div>
+								</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+	<footer class="w-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p class="text-white pt-5 pb-5">©Escuela de Danza. Todos los derechos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="http://maps.google.com/maps/api/js?sensor=false&callback=iniciar">
+	</script>
+	<script>
+	function iniciar() {
+	var mapOptions = {
+	center: new google.maps.LatLng(25.80, -80.30),
+	zoom: 10,
+	mapTypeId: google.maps.MapTypeId.ROADMAP};
+	var map = new google.maps.Map(document.getElementById("map"),mapOptions);}              
+</script>
+</body>
+</html>

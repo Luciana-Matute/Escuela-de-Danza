@@ -1,0 +1,53 @@
+/*aca empieza la parte de las oferta de clases*/
+.balet{
+	background: url("../img/dance_12.jpg");
+	height: 355px;
+	width: 100%;
+	background-size: 100%;
+	padding-top: 30%;
+}
+.moderna{
+	background: url("../img/breakdance.jpg") center;
+	height: 355px;
+	width: 100%;
+	background-size: 100%;
+	padding-top: 30%;
+}
+.jazz{
+	background: url("../img/lirical-jazz.jpg") center;
+	height:355px;
+	width: 100%;
+	background-size: 100%;
+	padding-top: 30%;
+}
+.arabe{
+	background: url("../img/arabe.jpg") center;
+	height: 355px;
+	width: 100%;
+	background-size: 100%;
+	padding-top: 30%;
+}
+.ninos{
+	background: url("../img/little.jpg") center;
+	height: 355px;
+	width: 100%;
+	background-size: 100%;
+	padding-top: 30%;
+}
+.yoga{
+	background: url("../img/yoga.jpg") center;
+	height: 355px;
+	width: 100%;
+	background-size: 100%;
+	padding-top: 30%;
+}
+.fondo-gris{
+  background-color: black;
+  opacity: 0.6;
+  padding: 10%;
+  margin:5%;
+}
+/* pies de pagina*/
+footer{
+	background-color: #192951;
+}

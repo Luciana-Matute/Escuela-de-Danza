@@ -1,0 +1,80 @@
+/*imagen principal donde bailan*/
+.pareja-bailando{
+	background-image: url("../img/dance_1.jpg");
+	height: 58%;
+	background-size: 100%;
+}
+.studio h1{
+	font-size: 55px;
+}
+.studio p{
+	font-size: 12px;
+}
+.boton{
+	margin-top: 2%;
+	width: 10%;
+	background-color: #192951;
+	padding: 1%
+}
+/*aca empieza el fondo de cuadrados*/
+.fondo-cuadrados{
+	background-image: url("../img/textura_2.jpg");
+	background-repeat: 100%;
+}
+.presentacion p{
+	font-size: 25px;
+}
+.decoracion img{
+	width: 25%;
+	height: 3%;
+}
+.decoracion{
+	margin-left: 40%
+}
+.boton-ofertadeclases{
+	width: 20%;
+	background-color: #192951;
+	margin-left: 37%;
+	padding: 2%;
+}
+.imagen4{
+	background-image: url("../img/instructor_4.jpg");
+	height: 320px;
+	background-size: 100%;
+	margin-top: 10%;
+	border: 3px solid #070918;
+}
+.imagen5{
+	background-image: url("../img/profesor_9.jpg");
+	height: 320px;
+	background-size: 100%;
+	margin-top: 10%;
+	border: 3px solid #070918;
+}
+.inpad{
+	padding: 0px !important;
+}
+.inmargin{
+	margin: 0px !important;
+}
+.boton-nuestros-instructores{
+	width: 20%;
+	background-color: #070918;
+	position: absolute;
+	margin-top: -3.5%;
+	margin-left: 40%;
+	padding: 0.5%
+}
+.frase-danza{
+	font-size: 35px;
+}
+.fondo-azul{
+	background-color: #192951;
+}
+.parrafo-visitanos p{
+	font-size: 12px;
+}
+/* pies de pagina*/
+footer{
+	background-color: #192951;
+}

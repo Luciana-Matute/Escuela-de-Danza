@@ -1,0 +1,82 @@
+/*Foto de los chicos practicando balet*/
+.imagen-balet{
+	background: url("../img/dance_7.jpg")left center ;
+	height: 62%;
+	background-size: 128%;
+	border-top: 2px solid grey;
+	padding:7%;
+}
+.sobre-nosotros{
+	margin: 30px;
+  background-color: black;
+  opacity: 0.6;
+  margin: auto;
+  width: 50%;
+  padding: 5%;
+}
+/*fondo de los pilares*/
+.fondo-pilares{
+	background-image: url("../img/cubes.png");
+	background-repeat: 108%;
+}
+.col-4 h2{
+	border-bottom: 1px solid grey;
+}
+.pilares{
+	padding: 5%;
+}
+.profesor1{
+	background: url("../img/profesor_4.jpg") no-repeat ;
+	height: 175px;
+	width: 230px;
+	background-size: 108%;
+}
+.profesor2{
+	background: url("../img/profesor_14.jpg") no-repeat;
+	height: 175px;
+	width: 230px;
+	background-size: 108%;
+}
+.profesor3{
+	background: url("../img/profesor_1.jpg") no-repeat;
+	height: 175px;
+	width: 230px;
+	background-size: 108%;
+}
+.profesor4{
+	background: url("../img/profesor_10.jpg") no-repeat;
+	height: 175px;
+	width: 230px;
+	background-size: 108%;
+}
+.profesor5{
+	background: url("../img/profesor_11.jpg") no-repeat;
+	height: 175px;
+	width: 230px;
+	background-size: 108%;
+}
+.profesor6{
+	background: url("../img/profesor_12.jpg") no-repeat;
+	height: 175px;
+	width: 230px;
+	background-size: 108%;
+}
+.profesor7{
+	background: url("../img/profesor_9.jpg") no-repeat;
+	height: 175px;
+	width: 230px;
+	background-size: 108%;
+}
+.profesor8{
+	background: url("../img/profesor_15.jpg") no-repeat;
+	height: 175px;
+	width: 230px;
+	background-size: 108%;
+}
+.frase-inspiradora{
+	font-size: 50px;
+}
+/* pies de pagina*/
+footer{
+	background-color: #192951;
+}
